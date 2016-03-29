@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  name: DMPython
+  host: DMPython
+  disk_quota: 1024M
+  buildpack: python_buildpack
