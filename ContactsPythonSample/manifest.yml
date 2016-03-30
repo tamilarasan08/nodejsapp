@@ -2,7 +2,8 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  name: DMPython
-  host: DMPython
+  name: test_nodejsMongo
+  host: test_nodejsMongo
   disk_quota: 1024M
   buildpack: python_buildpack
+  timeout: 60
